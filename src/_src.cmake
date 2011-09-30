@@ -1,0 +1,65 @@
+SET ( ROOT_SOURCE_FILES
+	main.cpp
+	base.cpp
+	basewidget.cpp
+	captcha.cpp
+	cgienv.cpp
+	cgiroot.cpp
+	div.cpp
+	error.cpp
+	exception.cpp
+	home.cpp
+	lang.cpp
+	login.cpp
+	participant.cpp
+	participantlayoutcell.cpp
+	system.cpp
+	tmconferencemanagement.cpp
+	tmconferencemanagementsmconferencelist.cpp
+	tmconferencemanagementsmcreateconference.cpp
+	tmconferencemanagementsmtemplates.cpp
+	tmconferencemanagementsmterminalmanagement.cpp
+	tmconferencerooms.cpp
+	tmmcusettings.cpp
+	tmmcusettingssmcodecsettings.cpp
+	tmmcusettingssmdspsettings.cpp
+	tmmcusettingssmgakekeepersettings.cpp
+	tmmcusettingssmsignalingsettings.cpp
+	tmmcusettingssmsipserversettings.cpp
+	tmmcusettingssmstunsettings.cpp
+	tmsysmon.cpp
+	tmsysmonsmcodecinfo.cpp
+	tmsysmonsmdspinfo.cpp
+	tmsysmonsmgeneralinfo.cpp
+	tmsysmonsmservicesinfo.cpp
+	tmsysmonsmsignalinginfo.cpp
+	tmsystemsettings.cpp
+	tmusermanagement.cpp
+	tmusermanagementsmuserlog.cpp
+	tmusermanagementsmusers.cpp
+	tmwelcome.cpp
+	
+	# IPC STUFFS
+    ipc/addparticipantcommand.cpp
+    ipc/addparticipanttoaddressbookcommand.cpp
+    ipc/basecommand.cpp
+    ipc/callparticipantcommand.cpp
+    ipc/command.cpp
+    ipc/createconferencecommand.cpp
+    ipc/getcontactscommand.cpp
+    ipc/hangupparticipantcommand.cpp
+    ipc/logincommand.cpp
+    ipc/removeparticipantcommand.cpp
+    ipc/setconferencelayoutcommand.cpp
+    ipc/setmanagercommand.cpp
+    ipc/setparticipantlayoutslotcommand.cpp
+    ipc/setparticipantsoundreceptioncommand.cpp
+    ipc/setparticipantsoundtransmissioncommand.cpp
+    ipc/setparticipantvideoreceptioncommand.cpp
+    ipc/setparticipantvideotransmissioncommand.cpp
+    ipc/setpaticipantvolumecommand.cpp
+    ipc/setspeakercommand.cpp
+    ipc/terminateconferencecommand.cpp	
+)
+
+

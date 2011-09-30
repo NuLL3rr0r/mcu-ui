@@ -1,0 +1,13 @@
+
+
+// GCC 4.6.x on corei7-avx
+cmake -DCMAKE_C_COMPILER=/usr/local/bin/gcc46 -DCMAKE_CXX_COMPILER=/usr/local/bin/g++46 -DCMAKE_LINKER=/usr/local/bin/ld -DNATIVE_BUILD=n ../
+
+// GCC 4.6.x on xeon
+cmake -DCMAKE_C_COMPILER=/usr/local/bin/gcc46 -DCMAKE_CXX_COMPILER=/usr/local/bin/g++46 -DCMAKE_LINKER=/usr/local/bin/ld -DNATIVE_BUILD=y ../
+
+// Clang
+cmake -DCMAKE_C_COMPILER=/usr/local/bin/clang -DCMAKE_CXX_COMPILER=/usr/local/bin/clang++ -DCMAKE_LINKER=/usr/local/bin/llvm-ld -DNATIVE_BUILD=y ../
+
+
+

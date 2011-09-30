@@ -1,0 +1,381 @@
+@charset "UTF-8";
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #C8C8C8;
+}
+
+textarea {
+	resize: none;
+}
+
+.dvNoScript {
+	font: normal normal normal 12px/1.5em Georgia, 'Times New Roman', Times, serif, Tahoma, arial, sans-serif, Geneva, Verdana;
+	letter-spacing: 1px;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid #F00;
+	background: #FFA4A4;
+}
+
+a:link {
+	text-decoration: none;
+	color: #00F;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #00F;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #00F;
+}
+
+a:active {
+	text-decoration: none;
+	color: #00F;
+}
+
+.link {
+	text-decoration: none;
+	cursor: pointer;
+	cursor: hand;
+	color: #00F;
+}
+
+.boldText {
+	font-weight: bold;
+	color: #203070;
+}
+
+.boldTextErr {
+	font-weight: bold;
+	color: #900;
+}
+
+.captcha {
+	display: block;
+	margin: 10px auto;
+	border: 1px solid #000;
+}
+
+.form {
+	margin: 0 auto;
+}
+
+.form * {
+	overflow: visible;
+}
+
+.form td {
+	vertical-align: middle;
+}
+
+.form tr, .form td, .form tr *, .form td * {
+	height: auto !important;
+	overflow: visible;
+}
+
+.form input, .form textarea {
+	width: 98% !important;
+	padding: 2px 5px;
+	background: #D8D8D8 url(bginput.png) repeat-x;
+	border: 1px solid #666;
+	font: bold 1em Tahoma, 'Verdana Sans';
+	color: #2D2D2B;
+	overflow: visible;
+}
+
+.form textarea {
+	width: 98% !important;
+	height: 85px !important;
+	resize: none;
+	overflow: visible;
+	background: #D8D8D8 url(bginput.png) repeat-x center bottom !important;
+}
+
+.formButton {
+	font-family: Tahoma, 'Verdana Sans';
+	display: block;
+	margin: 15px auto;
+	font-weight: bold;
+	width: 100px;
+	height: 25px;
+}
+
+.form .boldText, .form .boldTextErr {
+	display: block;
+	text-align: center;
+}
+
+.tbl {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 17px;
+}
+
+.tbl td {
+	padding: 5px 10px;
+	border: 1px solid #000;
+	text-align: left;
+}
+
+.tblHeader {
+	text-align: center !important;
+	font-weight: bolder;
+}
+
+.tblButton {
+	font-family: Tahoma, 'Verdana Sans';
+	font-weight: normal;
+	padding: 1px 9px;
+}
+
+.Wt-invalid {
+	background: #F79A9A url(bginvalidinput.png) !important;
+	border: 1px solid #900 !important;
+}
+
+textarea.Wt-invalid {
+	background: #F79A9A url(bginvalidinput.png) repeat-x center bottom !important;
+	border: 1px solid #900 !important;
+}
+
+.Wt-dialog, .Wt-outset, .Wt-msgbox-buttons {
+	font-family: Tahoma, 'Verdana Sans';
+}
+
+.Wt-dialog .titlebar {
+	text-align: center !important;
+}
+
+.tipsBox {
+	width: 99% !important;
+	height: 185px !important;
+	resize: none;
+	margin: 11px 0;
+}
+
+.dialogButton {
+	font-family: Tahoma, 'Verdana Sans';
+	display: inline-block;
+	margin: 15px 7px;
+	padding: 0 4px 0 4px;
+	font-weight: bold;
+	min-width: 100px;
+	height: 25px;
+}
+
+#dvLangBar {
+	position: absolute;
+	top: 9px;
+	right: 9px;
+}
+
+#dvLangBar a {
+	text-decoration: none;
+	border: none;
+}
+
+#dvLangBar a img {
+	border: none;
+	width: 24px;
+	height: 24px;
+}
+
+#dvLogin {
+	position: relative;
+	margin: 0 auto;
+	padding: 25px;
+	border: 1px solid #666;
+	width: 300px;
+	background: url(bgstoplogin.png) no-repeat top left;
+	letter-spacing: 1px;
+	text-align: center;
+	border-radius: 9px;
+	margin-top: 99px;
+}
+
+#dvCopyright {
+	clear: both;
+	float: none;
+	padding: 8px 24px;
+	margin: 0 auto;
+	color: #000;
+	font: bold .8em Arial, Helvetica, sans-serif;
+	letter-spacing: 2px;
+	line-height: 17px;
+	text-align: center;
+}
+
+#dvBody {
+	background: #23238e;
+}
+
+#dvTopMenu {
+	background: #23238e;
+	position: relative;
+	margin: 0 auto;
+	padding: 8px 16px;
+}
+
+#dvTopMenu ul {
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+	list-style: none;
+}
+
+#dvTopMenu ul ul {
+	padding: 0;
+	margin: 0;
+	text-indent: 0;
+	list-style: none;
+}
+
+#dvTopMenu li {
+	padding: 9px;
+	border-left: 1px dashed #999;
+	display: inline-block;
+}
+
+#dvTopMenu a {
+	color: #ccc;
+	font-family: Tahoma, 'Verdana Sans';
+	font-size: 11px;
+	font-weight: bolder;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+
+#dvTopMenu .itemselected {
+	color: #fff;
+}
+
+#dvTopMenu a:hover {
+	color: #cc3299;
+	text-decoration: none;
+}
+
+#dvSubMenu {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#dvSubMenuInner {
+	padding: 3px 48px;
+}
+
+#dvSubMenuInner ul {
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+	list-style: none;
+}
+
+#dvSubMenuInner ul ul {
+	padding: 0;
+	margin: 0;
+	text-indent: 0;
+	list-style: none;
+}
+
+#dvSubMenuInner li {
+	padding: 9px;
+	border-left: 1px dashed #999;
+	display: inline-block;
+}
+
+#dvSubMenuInner a {
+	color: #333;
+	font-family: Tahoma, 'Verdana Sans';
+	font-size: 11px;
+	font-weight: bolder;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+
+#dvSubMenuInner .itemselected {
+	color: #000;
+}
+
+#dvSubMenuInner a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+#dvContents {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	min-height: 450px;
+	background: #C8C8C8;
+}
+
+#dvContentsInner {
+	margin: 0 auto;
+	padding: 8px 24px;
+	text-align: justify;
+	font-weight: normal;
+	line-height: 23px;
+}
+
+#dvSysMonMachineInfo {
+	text-align: center;
+}
+
+#dvSysMonDiskInfo, #dvSysMonNetInfo {
+    direction: ltr;
+	text-align: center;
+}
+
+#dvSysMonDiskInfo .tbl td, #dvSysMonNetInfo .tbl td {
+	text-align: center !important;
+}
+
+#dvConfRoomsParticipantsList {
+    min-width: 550px;
+    min-height: 400px;
+    width: 80%;
+}
+#dvSidePane {
+    min-width: 200px;
+    width: 20%;
+}
+
+#dvConfRoomsManageConfBar td {
+	padding: 0 8px 0 8px;
+}
+
+#dvParticipantsLayoutTable {
+	text-align: center !important;
+}
+
+#dvParticipantsLayoutTable td {
+	text-align: center !important;
+    width: 64px;
+    height: 64px;
+}
+
+.dvContinuousPresenceLayoutCell {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+	text-align: center !important;
+}
+
+#dvConfRoomsLegends table {
+	padding: 0 8px 0 8px;
+}
+
+#dvConfRoomsLegends td {
+    text-align: center;
+	vertical-align: middle;
+	padding: 4px;
+}
+
+

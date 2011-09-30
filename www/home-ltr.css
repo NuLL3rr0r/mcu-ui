@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+html, body {
+	font-family: 'Bitstream Vera Sans', arial, helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.dvNoScript {
+	direction: ltr;
+}
+
+.form table td {
+	text-align: left !important;
+}
+
+.tbl td {
+	text-align: left;
+}
+
+.Wt-dialog, .Wt-outset, .Wt-msgbox-buttons {
+	direction: ltr;
+	text-align: right;
+}
+
+.Wt-popupmenu .Wt-item, .Wt-popupmenu .Wt-selected, .Wt-popupmenu .Wt-selected, .Wt-popupmenu .Wt-separator {
+    direction: ltr;
+    text-align: left;
+}
+
+#dvLogin {
+	font: bold 1em 'Comic Sans MS';
+}
+
+#dvTopMenu {
+	direction: ltr;
+}
+
+#dvTopMenu a {
+	letter-spacing: 2px;
+}
+
+#dvTopMenu li:first-child {
+	border: none;
+}
+
+#dvSubMenu {
+	float: left;
+}
+
+#dvSubMenuInner {
+	direction: ltr;
+}
+
+#dvSubMenuInner li:first-child {
+	border: none;
+}
+
+#dvContents {
+	float: right;
+}
+
+#dvContentsInner {
+}
+
+#dvConfRoomsParticipantsList {
+    float: left;
+}
+#dvSidePane {
+    float: right;
+}
+
+
